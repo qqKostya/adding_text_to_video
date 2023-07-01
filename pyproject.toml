@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "adding-text-to-video"
+version = "0.1.0"
+description = ""
+authors = ["qqKazakov <leap74rus@gmail.com>"]
+readme = "README.md"
+packages = [{include = "adding_text_to_video"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flake8 = "^6.0.0"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
