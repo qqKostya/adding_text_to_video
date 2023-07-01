@@ -10,6 +10,7 @@ packages = [{include = "adding_text_to_video"}]
 python = "^3.11"
 flake8 = "^6.0.0"
 black = "^23.3.0"
+opencv-python = "^4.8.0.74"
 
 
 [build-system]
